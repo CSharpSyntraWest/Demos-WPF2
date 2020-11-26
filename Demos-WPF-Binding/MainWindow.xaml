@@ -13,5 +13,14 @@
         <TabItem Header="Binding Object">
             <local:BindingObject/>
         </TabItem>
+        <TabItem Header="Oefening Binding Object">
+            <local:BankRekeningOef/>
+            <!--Maak een nieuwe user control die gebonden is aan een object van klasse Bankrekening
+            in de control zijn er 1 textbox met de RekNr en 1 slider voor Saldo.
+            Maak 2 public properties in de klasse BankRekening. RekNr en Saldo
+            RekNr is enkel leesbaar via de View
+            Saldo is 2way gebonden aan de Value van de Slider //(min slider = -500 max slider= 1000)
+            -->
+        </TabItem>
     </TabControl>
 </Window>
