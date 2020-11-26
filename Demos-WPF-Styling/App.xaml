@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Demos_WPF_Styling"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <BitmapImage x:Key="DefaultImage" UriSource="pack://siteoforigin:,,,/Resources/defaultContact.png"  />
     </Application.Resources>
 </Application>

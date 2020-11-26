@@ -28,5 +28,6 @@
         <Rectangle Margin="15" Width="120" Height="120" Fill="{DynamicResource CustomBrush}"/>
         <Button Click="Button_Click" Content="Wijzig kleur" Width="80" Height="60"/>
         <Button Name="Volgendewindow" Content ="Volgende Window" Margin="10" Width="100" Height="60" Click="Volgendewindow_Click"></Button>
+        <Image Height="125" Width="125" Margin="10" Source="{StaticResource DefaultImage}"/>
     </StackPanel>
 </Window>
