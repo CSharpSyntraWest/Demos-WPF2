@@ -11,7 +11,7 @@
     </UserControl.DataContext>
     <StackPanel Margin="20">
         <Label>Naam:</Label>
-        <TextBox></TextBox>
+        <TextBox Text="{Binding Naam,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"></TextBox>
         <Label>GeboorteDatum:</Label>
         <DatePicker Text="{Binding GeboorteDatum, StringFormat='dd/MM/yyyy'}" SelectedDate="{Binding SelectedDate,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"></DatePicker>
         <Label>Kies Event datum:</Label>
