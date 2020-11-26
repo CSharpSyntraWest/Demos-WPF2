@@ -42,8 +42,8 @@
                         </Setter>
                     </Style>
                  </TabControl.Resources>
-                <TabItem Header="Tab 1">
-                    <Label Content="Inhoud Tab 1..." />
+                <TabItem Header="Date Picker">
+                    <local:DatePickerDemo/>
                 </TabItem>
                 <TabItem Header="Tab 2" >
                     <Label Content="Inhoud Tab 2..." />
