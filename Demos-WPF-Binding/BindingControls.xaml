@@ -15,3 +15,8 @@
 
     </StackPanel>
 </UserControl>
+<!--
+    Oefening Binding Controls
+    Maak een nieuwe user control met 2 textboxes in een stackpanel en bind de Text property van de 2de Textbox
+    in 2 richtingen met de Text property van de eerste TextBox
+    -->

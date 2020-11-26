@@ -10,5 +10,8 @@
         <TabItem Header="Binding Controls">
             <local:BindingControls/>
         </TabItem>
+        <TabItem Header="Binding Object">
+            <local:BindingObject/>
+        </TabItem>
     </TabControl>
 </Window>
