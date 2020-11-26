@@ -19,6 +19,7 @@
         </SolidColorBrush>
     </Window.Resources>
     <StackPanel Margin="0,0,0,-105">
+        <CheckBox Style="{StaticResource favoriteCheckbox}"/>
         <Button Content = "Button1" Style="{StaticResource BlauweButtonStyle}"/>
 
         <Button Content = "Button2" Style="{StaticResource BlauweButtonStyle}"/>

@@ -63,9 +63,39 @@ namespace Demos_WPF_Styling.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap checkedStar {
+            get {
+                object obj = ResourceManager.GetObject("checkedStar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap defaultContact {
             get {
                 object obj = ResourceManager.GetObject("defaultContact", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hoverStar {
+            get {
+                object obj = ResourceManager.GetObject("hoverStar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap uncheckedStar {
+            get {
+                object obj = ResourceManager.GetObject("uncheckedStar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
