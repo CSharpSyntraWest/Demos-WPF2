@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos-WPF2", "Demos-WPF2\De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos-WPF2-Framework", "Demos-WPF2-Framework\Demos-WPF2-Framework.csproj", "{7F017DE2-A2E0-4C21-AA4C-D8BFCF61683E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos-WPF-Styling", "Demos-WPF-Styling\Demos-WPF-Styling.csproj", "{69055E02-8C64-43C5-B148-14B3413EE07C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7F017DE2-A2E0-4C21-AA4C-D8BFCF61683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F017DE2-A2E0-4C21-AA4C-D8BFCF61683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F017DE2-A2E0-4C21-AA4C-D8BFCF61683E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69055E02-8C64-43C5-B148-14B3413EE07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69055E02-8C64-43C5-B148-14B3413EE07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69055E02-8C64-43C5-B148-14B3413EE07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69055E02-8C64-43C5-B148-14B3413EE07C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

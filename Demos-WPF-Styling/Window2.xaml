@@ -1,0 +1,16 @@
+﻿<Window x:Class="Demos_WPF_Styling.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demos_WPF_Styling"
+        mc:Ignorable="d"
+        Title="Window2" Height="341.86" Width="644.768">
+    <StackPanel>
+        <WrapPanel Margin="10" HorizontalAlignment="Center">
+            <TextBlock  Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center">Dit is de 2de window</TextBlock>
+            <Button Click="btnBestandLaden_Click"  Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center" Name="btnBestandLaden" >Bestand laden...</Button>
+        </WrapPanel>
+        <Image Name="imgPrentje" Margin="10"/>
+    </StackPanel>
+</Window>
