@@ -13,14 +13,13 @@
         <Label>Naam:</Label>
         <TextBox></TextBox>
         <Label>GeboorteDatum:</Label>
-        <DatePicker></DatePicker>
+        <DatePicker Text="{Binding GeboorteDatum, StringFormat='dd/MM/yyyy'}" SelectedDate="{Binding SelectedDate,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"></DatePicker>
         <Label>Kies Event datum:</Label>
-        <DatePicker Text="{Binding DatumVandaag}"></DatePicker>
+        <DatePicker Text="{Binding DatumVandaag, StringFormat='dd/MM/yyyy'}"></DatePicker>
         <Label>Geslacht:</Label>
         <ComboBox>
             <ComboBoxItem>Man</ComboBoxItem>
             <ComboBoxItem>Vrouw</ComboBoxItem>
-
         </ComboBox>
     </StackPanel>
 </UserControl>
