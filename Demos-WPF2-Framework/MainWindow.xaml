@@ -8,10 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <TabControl TabStripPlacement="Left">
         <TabItem Header="TextBlock">
-           
+            <local:TextBlockDemo/>
         </TabItem>
         <TabItem Header="TextBox">
-           
+            <local:TextBoxDemo/>
         </TabItem>
         <TabItem Header="GridLayout">
             <local:GridLayoutDemo/>

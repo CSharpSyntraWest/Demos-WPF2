@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="Demos_WPF2_Framework.TextBlockDemo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Demos_WPF2_Framework"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock Margin="10" Foreground="Red">
+            Dit is een tekstblock control<LineBreak/>
+            met meerdere lijnen teksts
+        </TextBlock>
+        <TextBlock Margin="10" TextWrapping="Wrap" Foreground="Blue">
+           Dit is een Textbox control met "wrapped" tekst, via de TextWrapping property.
+        </TextBlock>
+        <TextBlock Margin="10" TextTrimming="CharacterEllipsis" Foreground="Green">
+            Dit is een Textbox control die niet volledig wordt getoond, dit wordt aangeduid met een groene puntjes.
+        </TextBlock>
+        <TextBlock Margin="10" TextWrapping="Wrap">
+            TextBlock met <Bold>vette</Bold>, <Italic>schuine</Italic>en<Underline>onderlijnde</Underline>tekst
+        </TextBlock>
+    </StackPanel>
+</UserControl>
